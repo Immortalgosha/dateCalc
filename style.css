@@ -1,0 +1,95 @@
+body {
+background-color:#e0dede;
+}
+.calc {
+        margin: 50px auto;
+        width: 600px;
+        height: 320px;
+        border: 2px solid #000;
+        border-radius: 20px;
+        background:  #000;
+        color: #fff;
+        font-family: Arial;
+        padding: 18px;
+        box-shadow: 10px 5px 5px #4f4f4f;
+ }
+.calc h {
+        color:#ff9501;
+        width: 600px;
+        font-size:2.5rem;
+        text-align: center;
+        margin-left:150px;
+        margin-bottom: 10px;
+}
+.calc_screen1 {
+        height:50px;
+        padding:10px;
+        margin-bottom:2px;
+        font-size:1.5rem;
+        margin:0;
+}
+.calc_screen1 input {
+        margin-left:10px;
+        width: 150px;
+        font-size:1.3rem;
+}
+.calc_screen2 {
+        height:50px;
+        padding:10px;
+        margin-bottom:2px;
+        font-size:1.5rem;
+        margin:0;
+}
+.calc_screen2 input {
+        margin-left:3px;
+        width: 120px;
+        font-size:1.3rem;
+}
+.calc_screen3 {
+        height:50px;
+        padding:10px;
+        margin-bottom:2px;
+        font-size:1.5rem;
+        margin:0;
+}
+.calc_screen3 p {
+        grid-area:days;
+        width:600px;
+        font-size:1.5rem;
+        text-align: center;
+
+}
+.buttons {
+        display:grid;
+        grid-template-areas:
+        "start start clean clean";
+        grid-column-gap: 20px;
+        justify-items: center;
+}
+.btn.clean {
+        grid-area:clean;
+        width:100%;
+        border-radius:34px;
+}
+.btn.start {
+        grid-area:start;
+        width:100%;
+        border-radius:34px;
+}
+.btn {
+        width: 160px;
+        height:60px;
+        background:#ff9501;
+        border-radius: 20px;
+        text-align: center;
+        line-height: 60px;
+        font-size: 1.5rem;
+        cursor: pointer;
+        user-select: none;
+}
+.btn:hover {
+        filter: brightness(120%);
+}
+.btn:active {
+        filter: brightness(80%);
+}
